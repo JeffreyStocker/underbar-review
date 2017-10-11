@@ -432,7 +432,6 @@
   // Example:
   // _.zip(['a','b','c','d'], [1,2,3]) returns [['a',1], ['b',2], ['c',3], ['d',undefined]]
   _.zip = function() {
-    var numOfArrays = arguments.length;
     var output = [];
     var args = [].slice.call(arguments)
     var longestArrayLength = _.reduce (args, (accumulator, element) => {
