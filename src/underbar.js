@@ -446,7 +446,7 @@
     for (var i = 0; i > longestArrayLength; i++){
       var singleArrayElement = []
       output = _.each (args, (element) => {
-        singleArrayElement.push ()
+        singleArrayElement.push (singleArrayElement)
       }); 
     };
 
