@@ -442,11 +442,12 @@
       return accumulator
     }, 0);
 
-    for (var i = 0; i > longestArrayLength; i++){
-      var singleArrayElement = []
-      output = _.each (args, (element) => {
-        singleArrayElement.push (singleArrayElement)
+    for (var i = 0; i < longestArrayLength; i++){
+      var singleArrayElement = [];
+      _.each (args, (array) => {
+        singleArrayElement.push (array[i]);
       }); 
+      output.push(singleArrayElement);
     };
 
     return output;
