@@ -409,7 +409,6 @@
   // Calls the method named by functionOrKey on each value in the list.
   // Note: You will need to learn a bit about .apply to complete this.
   _.invoke = function(collection, functionOrKey, args) {
-    debugger;
     return _.map (collection, (element) => {
       if (typeof functionOrKey === "string") {
         var invoke = element[functionOrKey];
